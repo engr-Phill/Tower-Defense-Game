@@ -3,6 +3,41 @@ Name of game: Tower Defence
 
 ![image](https://github.com/user-attachments/assets/9afdbfb2-643f-47ed-b201-0eafaa9b46cb)
 
+![image](https://github.com/user-attachments/assets/3e450aea-5223-4adc-a93f-be708f6276f7)
+
+## Description
+Tower Defence is a simple tower defense game implemented in Processing. The objective of the game is to defend against waves of enemies using strategically placed towers.
+
+## Features
+
+- **Gameplay Elements:**
+  - Towers: Different types of towers can be placed on the map to attack enemies.
+  - Enemies: Waves of enemies spawn at regular intervals and move towards a goal.
+  - Health and Money: Players start with a set number of lives and money. Lives are lost if enemies reach the goal, and money is used to build and upgrade towers.
+  - Waves: Waves of enemies increase in difficulty as the game progresses, including boss waves.
+  
+- **User Interface:**
+  - Menu Screen: Allows players to choose game difficulty before starting.
+  - HUD: Displays current wave, remaining lives, money, and score during gameplay.
+  - Game Over: Shows the final score and waves survived upon losing all lives.
+
+## Installation
+
+1. Clone the repository or download the project files.
+2. Open the project in Processing IDE.
+3. Run the `Tower_Defence.pde` file to start the game.
+
+## Controls
+
+- **Mouse:** Click to place towers on the map.
+- **Keyboard:** Press `R` to restart the game when on the game over screen.
+
+## Requirements
+
+- Processing IDE (Version X.X or higher)
+- Compatible with Windows, macOS, and Linux
+
+ 
 
 **Vision** 
 
@@ -20,4 +55,6 @@ Another technically challenging problem to solve was rotating the tower sprite t
 **Reflection**
 
 Map design and implementation was far easier than I expected. This includes splitting the map up into 192 grids (16 columns, 12 rows) for objects to be in. Designing, building and implementing multiple classes spread out between different files was quite difficult, but it allowed me to compress my code and using multiple files made it easier to traverse a large code base quickly. I executed my plan and my game works well with no errors. All assets are called from a local file because calling them from the internet introduced ag to the game. I believe that there is more that I could have dont it make it better. If I could do this assignment again I would add more animations and improve the overall look of the game. I could also add more types of towers with a menu bar on the side where the user could choose from different towers that do different things. My plan worked out perfectly. The only problem was my artistic abilities, my sprites are very plain. If I could redo it I would try harder to draw better sprites or use ones from a free online repository. I could add a file to save the top score along with the player name. If I had more time I would add new maps / levels along with sound.
+
+
 
